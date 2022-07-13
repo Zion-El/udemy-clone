@@ -12,25 +12,30 @@
 </head>
 <body>
     <header>
+        <button class="hamburger"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
         <picture id="logo">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Udemy_logo.svg/2560px-Udemy_logo.svg.png" alt="udemy logo">
         </picture>
         <p>Categories</p>
         <div class="search">
             <button><i class="fa fa-search"></i></button>
+        
             <input type="text" placeholder="Search for anything">
         </div>
         <div class="topNav">
-            <a href="#">Udemy Business</a>
+            <a class="bix" href="#">Udemy Business</a>
             <a href="#">Teach on Udemy</a>
             <a href="#">My learning</a>
+            <a href="#"><i class="fa fa-heart fa-xl" aria-hidden="true"></i></a>
+            <a href="#"><i  id="cart" class="fa fa-shopping-cart fa-xl" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-bell fa-xl" aria-hidden="true"></i></a>
+            <a class='user_icon' href="#"><span>GA</span></a>
+            
         </div>
-        <div class="navIcon">
-            <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-bell-o" aria-hidden="true"></i></a>
+        <div class="other_icon">
+            <button><i class="fa fa-search fa-xl"></i></button>
+            <button><i class="fa fa-shopping-cart fa-xl" aria-hidden="true"></i></button>
         </div>
-        <div></div>
         
     </header>
     <main>
@@ -74,7 +79,7 @@
             </div>
             <div class="lesson">
                 <div class="line1" >
-                    <div class="les1">
+                    <div id='_1' class="les1">
                         <div class="vid">
                             <img alt="" class="cou1" src="https://img-c.udemycdn.com/course/240x135/2776760_f176_10.jpg" srcset="https://img-c.udemycdn.com/course/240x135/2776760_f176_10.jpg 1x, https://img-c.udemycdn.com/course/480x270/2776760_f176_10.jpg 2x">
                         </div>
@@ -85,7 +90,7 @@
                             <span class="level"><p>START COURSE</p></span>
                         </div>
                     </div>
-                    <div class="les1">
+                    <div id='_2' class="les1">
                         <div class="vid">
                             <img alt="" class="cou1" src="https://img-c.udemycdn.com/course/240x135/2776760_f176_10.jpg" srcset="https://img-c.udemycdn.com/course/240x135/2776760_f176_10.jpg 1x, https://img-c.udemycdn.com/course/480x270/2776760_f176_10.jpg 2x">
                         </div>
@@ -142,11 +147,7 @@
                             <span class="level"><p>50% complete</p></span>
                         </div>
                     </div>
-                    <div class="les1"></div>
-                    <div class="les1"></div>
-                    <div class="les1"></div>
                 </div>
-
             </div>
         </section>
         <div class="pagination">
@@ -188,17 +189,17 @@
         <div class="Overview">
             <div class="view_link">
                 <div class="col1">
-                    <a href="#">Udemy Business</a>
-                    <a href="#">Teach on Udemy</a>
-                    <a href="#">Get the app</a>
+                    <a class='remove' href="#">Udemy Business</a>
+                    <a class='remove' href="#">Teach on Udemy</a>
+                    <a class='remove' href="#">Get the app</a>
                     <a href="#">About us</a>
                     <a href="#">Contact us</a>
                 </div>
                 <div class="col1">
                     <a href="#">Career</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Help and Support</a>
-                    <a href="#">Affliate</a>
+                    <a class="remove" href="#">Blog</a>
+                    <a class='remove' href="#">Help and Support</a>
+                    <a class='remove' href="#">Affliate</a>
                     <a href="#">Investors</a>
                 </div>
                 <div class="col1">
